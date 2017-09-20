@@ -1,0 +1,121 @@
+<html>
+
+    <head>
+        <title>CSS Node Practise - Real Estate Project </title>
+        <script src="javascripts/angular/angular.js" type="text/javascript"></script>
+        <script src="javascripts/angular-ui-router/release/angular-ui-router.js" type="text/javascript"></script>
+        <script src="javascripts/app.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        
+        <script type="text/javascript" src="stylesheets/cssrefresh.js"></script>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> -->
+
+        
+    </head>
+    <body ng-app="realEstatePractise">
+        <div ng-controller="mainController">
+            <div class="main-container">
+                <header class="site-header" change-class-on-scroll>
+                    <ul>
+                        <li class="menu-item">HOME</li>
+                        <li class="menu-item">ABOUT</li>
+                        <li class="menu-item">CONTACTS</li>
+                        <li class="menu-item">PORTFOLIO</li>
+                    </ul>
+                </header>
+            </div>
+
+            <div class="figure-container"> 
+                <div class="main-title">REPRESENTING THE WORLD’S FINEST REAL ESTATE</div>
+                    <a class="title-link" target="_blank" href="http://sprec.com/">
+                        <span class="title-link-text">About Us </span> 
+                    </a>
+                <figure class="figure-image"></figure>
+            </div>
+
+            <section class="text-holder">
+                <header class="text-header">
+                    <h3 class="text-title">THE EVOLVING WORLD OF LUXURY LIVING</h3>
+                    <hr class="custom-hr">
+                    <p class="text-paragraph"> On the surface our story is deceptively simple, but exactly how we give it life is highly sophisticated. Collaborating with our extraordinary developer clientele, we create desire and demand for luxury real estate in the great financial, social, cultural and recreational capitals of the world. Like the world class architects and designers they select, this new wave of developers is dedicated to crafting the most geometrically inspiring and emotionally moving structures imaginable. Our role is to market those residences to discerning buyers and to help guide developer, architect and buyer alike in an evolving world of luxury living.</p>
+                    
+                </header>
+                
+            </section>
+
+
+            <section class="cards-container">
+                <div class="card">
+                    <a class="card-link" id="card1" href="google.com">
+                        <figure class="card-bg" style="background-image:url(http://sprec.com/wp-content/uploads/2016/07/PG_project-banner-images-1400x875.jpg)"></figure>
+                        <header class="card-header">
+                            <h2 class="card-title">Pacific Gate</h2>
+                            <span class="card-more">View More</span>
+                        </header>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card-link"  href="google.com">
+                        <figure class="card-bg" style="background-image:url(http://sprec.com/wp-content/uploads/2016/07/vancouver-house-1400x875.jpg)"></figure>
+                        <header class="card-header">
+                            <h2 class="card-title">Vancouver House</h2>
+                            <span class="card-more">View More</span>
+                        </header>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card-link" id="card3" href="google.com">
+                        <figure class="card-bg" style="background-image:url(http://sprec.com/wp-content/uploads/2016/07/ritz-mast-1400x875.jpg)"></figure>
+                        <header class="card-header">
+                            <h2 class="card-title">Ritz Carlton Waikiki</h2>
+                            <span class="card-more">View More</span>
+                        </header>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="card-link" id="card4" href="google.com">
+                        <figure class="card-bg" style="background-image:url(http://sprec.com/wp-content/uploads/2016/07/trump-mast-1400x875.jpg)"></figure>
+                        <header class="card-header">
+                            <h2 class="card-title">Dump Tower Waikiki</h2>
+                            <span class="card-more">View More</span>
+                        </header>
+                    </a>
+                </div>
+            </section>
+
+            <section class="more-projects-container">
+                <div class="more-projects-bar">
+                    <h2 class="more-projects-title">See more projects</h2>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <div class="footer-navs">
+                    <nav class="left-nav">
+                        <ul>
+                            <li>Contact</li>
+                            <li>Press</li>
+                            <li>World Housing</li>
+                        </ul>
+                    </nav>
+
+                    <span class="footer-slogan"> The World's Finest Real Estate</span>
+
+                    <nav class="right-nav">
+                        <ul>
+                            <li>Sitemap</li>
+                            <li>Privacy</li>
+                            <li>Terms</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer-info">
+                    <div class="footer-logo"> logo </div>
+                    <div class="footer-adress"> #106 1008 BEACH AVENUE | VANCOUVER, BC V6E 1T7 </div>
+                    <div class="site-authorship"> ©2017 S&P REAL ESTATE CORP. ALL RIGHTS RESERVED.</div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
